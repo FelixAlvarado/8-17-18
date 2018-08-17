@@ -10,3 +10,13 @@ If a building that's being used goes ofline, traffic is rerouted to another buil
 What is the principle of Least Privlege and how does it relate to the responsibilties of the load balancer? 
 
 Only opening the doors that someone needs to access. With load balancing, the balancer would send a reuest to a particuler server, so if someone gained illegal control of that server, they wouldn't have access to other servers or resources. 
+
+What is address resuution protocol?
+
+A protocal for mapping an internet protocol address to a physical machine address that is recognized in the local network. 
+
+What is TCP? 
+
+Transmission control Protocol 
+
+A standard that defineds how to establish and maintain a network conversation via which application programs cn excahnge data. 
