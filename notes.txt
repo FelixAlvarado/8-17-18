@@ -1,0 +1,5 @@
+Give a high level overview of how to implement a hash table:
+
+Data is hashed to a value that corresponds to the index of an array. That index has a node tha tpoints to the head of a singly linked list of all objects that have been hashed for the save value. 
+insertion, deletion, search all have constant time. 
+
