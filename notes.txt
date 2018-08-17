@@ -3,3 +3,10 @@ Give a high level overview of how to implement a hash table:
 Data is hashed to a value that corresponds to the index of an array. That index has a node tha tpoints to the head of a singly linked list of all objects that have been hashed for the save value. 
 insertion, deletion, search all have constant time. 
 
+What does DNS load-balancing become necessary? 
+
+If a building that's being used goes ofline, traffic is rerouted to another building via Geography based load balancing (DNS load balancing) insead of global load balancing 
+
+What is the principle of Least Privlege and how does it relate to the responsibilties of the load balancer? 
+
+Only opening the doors that someone needs to access. With load balancing, the balancer would send a reuest to a particuler server, so if someone gained illegal control of that server, they wouldn't have access to other servers or resources. 
